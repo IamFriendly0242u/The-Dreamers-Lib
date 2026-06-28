@@ -15,6 +15,12 @@
 * **Minecraft Version**: ~26.1.2
 * **Java**: 25+
 
+## License
+
+This project is protected under **All Rights Reserved** license. No part of this software may be copied, modified, merged, published, or redistributed in any form without prior written permission.
+
+**Built by IamFriendly0242u**
+
 ## Setup & Dependency
 
 To use this library in your development environment, add it to your `build.gradle` dependencies:
@@ -27,10 +33,3 @@ dependencies {
 
 	modImplementation files("../TheDreamersLib/build/libs/thedreamers_lib-1.0.0.jar")
 }
-
-## License
-
-This project is protected under **All Rights Reserved** license. No part of this software may be copied, modified, merged, published, or redistributed in any form without prior written permission.
-
----
-*Built by IamFriendly0242u*
