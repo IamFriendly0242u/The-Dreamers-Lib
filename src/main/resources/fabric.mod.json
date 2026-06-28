@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "thedreamers_lib",
+	"version": "${version}",
+	"name": "The Dreamers Lib",
+	"description": "The Dreamers Library is the official foundation of The Dreamers modding ecosystem. It delivers a comprehensive collection of reusable APIs, networking utilities, configuration management, scheduling systems, data serialization, and shared components that power every The Dreamers project. Built with a modular, lightweight architecture, it provides reliable cross-mod compatibility, simplified development, and high-performance runtime integration for modern Fabric environments.",
+	"authors": [
+		"IamFriendly0242u"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/RXUuaqARzU",
+		"sources": "https://github.com/IamFriendly0242u/The-Dreamers-Lib",
+		"issues": "https://github.com/IamFriendly0242u/The-Dreamers-Lib/issues"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/thedreamers_lib/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.thedreamers.lib.Thedreamers_lib"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25"
+	}
+}
